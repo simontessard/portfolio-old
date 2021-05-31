@@ -41,7 +41,7 @@ body {
 #a{
     transition: all 0.2s ease-in-out;
     padding: 0.2rem;
-    color: #ccc !important;
+    color: white !important;
     text-decoration: none;
 }
 
@@ -49,3 +49,5 @@ body {
     color: white;
     text-shadow: 0 0 30px white;
 }
+
+
