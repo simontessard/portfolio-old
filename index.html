@@ -16,7 +16,8 @@
 
       <div class="container-fluid mx-5">
           
-            <a class="navbar-brand me-5"> <h2 id="titrePortfolio">Portfolio</h2></a>
+            <a class="navbar-brand me-5"> 
+              <h2 id="titrePortfolio">Portfolio</h2></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,17 +26,17 @@
               <div class="navbar-nav">
   
                 <li class="rounded nav-item m-2">
-                  <a class="nav-link rounded px-3" href="#presentation" id="test2"><span class="fs-5 fw-bold text-dark">Présentation</span></a>
+                  <a class="nav-link rounded px-3" href="#presentation" id="test2"><span class="fs-5 text-dark">Présentation</span></a>
                 </li>
 
                 <li class="rounded nav-item m-2">
-                  <a class="nav-link rounded px-3" href="#formation" id="test2"><span class="fs-5 fw-bold text-dark">Formation</span></a>
+                  <a class="nav-link rounded px-3" href="#formation" id="test2"><span class="fs-5 text-dark">Formation</span></a>
                 </li>
 
                 <li class="rounded nav-item m-2">
                     <div class="nav-item dropdown">
 
-                        <a class="btn btn-light btn-lg dropdown-toggle" type="button" id="test2" data-bs-toggle="dropdown" aria-expanded="false"><span class="fs-5 fw-bold text-dark">Réalisations</span> </a>
+                        <a class="btn btn-light btn-lg dropdown-toggle" type="button" id="test2" data-bs-toggle="dropdown" aria-expanded="false"><span class="fs-5 text-dark">Réalisations</span> </a>
                     
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                           <li><a class="dropdown-item" href="#apirest">API-REST</a></li>
@@ -46,7 +47,7 @@
                 </li>
 
                 <li class="rounded nav-item m-2">
-                  <a class="nav-link rounded px-3" href="#contact" id="test2"><span class="fs-5 fw-bold text-dark">Contact</span></a>
+                  <a class="nav-link rounded px-3" href="#contact" id="test2"><span class="fs-5 text-dark">Contact</span></a>
                 </li>
           
               </div>
@@ -59,13 +60,13 @@
 
     <div class="row justify-content-center py-5" id="presentation">
 
-      <div class="section-title text-center"> 
-        <h1 id="titre"> Présentation </h1>
+      <div class="section-title bg-primary text-center"> 
+        <h1 id="titre" class="display-6 p-1 text-white"> Présentation <i class="px-2 fas fa-user-circle fs-2"></i> </h1>
       </div>
 
       <div class="row m-4 justify-content-center"> 
 
-        <div class="col-md-4 m-4 p-4 bg-light border border-dark rounded" id="test">
+        <div class="col-md-4 m-4 p-4 bg-light border border-dark border-3 rounded" id="test">
 
           <div class="row mb-4"> 
             <div class="col-sm-8">
@@ -103,7 +104,7 @@
 
         <!-- FORMATION -->
 
-        <div class="col-md-4 m-4 p-4 bg-light rounded border border-dark" id="test">
+        <div class="col-md-4 m-4 p-4 bg-light rounded border border-dark border-3" id="test">
 
               <div class="card text-white bg-dark mb-3" id="formation">
                 <div class="card-header"><span class="fs-4">Formation future</span> </div>
@@ -167,8 +168,8 @@
     <section class="portfolio py-4" id="realisations"> 
 
         <div class="row justify-content-center">
-          <div class="section-title text-center"> 
-            <h1 id="titre"> Réalisations </h1>
+          <div class="section-title text-center bg-primary"> 
+            <h1 id="titre" class="display-6 text-white p-1"> Réalisations <i class="px-2 fas fa-tasks fs-3"></i></h1>
           </div>
         </div>
        
@@ -176,7 +177,7 @@
 
         <!-- FIRST PROJECT -->
 
-         <div class="col-md m-4 p-5 bg-light rounded border border-primary border-2" id="test">
+         <div class="col-md m-4 p-5 bg-light rounded border border-dark border-3" id="test">
 
            <div class="container">
 
@@ -184,22 +185,24 @@
                 <i class="fas fa-desktop fs-1 text-primary"></i>
               </div>
 
-              <div class="row m-2 text-center"> 
-                <p class="mt-3 fs-3 fw-bold" id="apirest"> API-REST </p>
+              <div class="row m-2 justify-content-center">
+                <div class="col-auto"> 
+                <p class="px-3 mt-3 fs-3 fw-bold border border-1 bg-dark text-white rounded" id="apirest"> API-REST </p>
+                </div> 
               </div>
 
               <div class="m-3 text-center">
                 <p>API-REST JSON développée avec le Framework PHP MVC CodeIgniter </p>
               </div>
 
-              <div class="row text-center">
-                <span class="fw-bold"> Compétences en jeu <i class="fas fa-code"> </i> </span>
+              <div class="row mt-4 text-center">
+                <span class="fw-bold"> COMPÉTENCES <i class="fas fa-code"> </i> </span>
                 <ul class="list-group list-group-horizontal m-2 justify-content-center">
-                  <li class="list-group-item">HTML</li>
-                  <li class="list-group-item">CSS</li>
-                  <li class="list-group-item">PHP</li>
-                  <li class="list-group-item">MySql</li>
-                  <li class="list-group-item">JSON</li>
+                  <li class="list-group-item list-group-item-success">HTML</li>
+                  <li class="list-group-item list-group-item-success">CSS</li>
+                  <li class="list-group-item list-group-item-success">PHP</li>
+                  <li class="list-group-item list-group-item-success">MySql</li>
+                  <li class="list-group-item list-group-item-success">JSON</li>
                 </ul> 
               </div>
 
@@ -212,7 +215,7 @@
 
           <!-- SECOND PROJECT -->
 
-          <div class="col-md m-4 p-5 bg-light rounded border border-primary border-2" id="test">
+          <div class="col-md m-4 p-5 bg-light rounded border border-dark border-3" id="test">
 
               <div class="container">
 
@@ -220,19 +223,21 @@
                  <i class="fas fa-mobile-alt fs-1 text-primary"></i>
                 </div>
 
-                <div class="row m-2 text-center"> 
-                 <p class="mt-3 fs-3 fw-bold" id="appandroid"> Application Android </p>
+                <div class="row m-2 justify-content-center"> 
+                  <div class="col-auto">
+                    <p class="px-3 mt-3 fs-3 fw-bold border border-1 bg-dark text-white rounded" id="appandroid"> Application Android </p>
+                  </div>
                 </div>
 
                 <div class="m-3 text-center">
                  <p>Application Android développée en Java communicant avec une API-REST JSON </p>
                 </div>
 
-                <div class="row text-center">
-                  <span class="fw-bold"> Compétences en jeu <i class="fas fa-code"> </i> </span>
+                <div class="row mt-4 text-center">
+                  <span class="fw-bold"> COMPÉTENCES <i class="fas fa-code"> </i> </span>
                   <ul class="list-group list-group-horizontal m-2 justify-content-center">
-                    <li class="list-group-item">Java</li>
-                    <li class="list-group-item">API JSON</li>
+                    <li class="list-group-item list-group-item-success">Java</li>
+                    <li class="list-group-item list-group-item-success">API JSON</li>
                   </ul> 
                 </div>
 
@@ -251,8 +256,8 @@
     <!-- CONTACT  -->
 
       <div class="row justify-content-center py-4" id="contact">
-        <div class="section-title text-center"> 
-          <h1 class="mb-5" id="titre"> Contactez moi <i class="far fa-envelope fs-4"></i> </h1>
+        <div class="section-title text-center bg-primary"> 
+          <h1 class="display-6 text-white p-1" id="titre"> Contactez moi <i class="px-2 fas fa-envelope fs-3"></i></i> </h1>
         </div>
       </div>
 

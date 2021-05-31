@@ -32,16 +32,6 @@ body {
     background-position: -100%;
 }
 
-#titre:before, #titre:after {
-    content: "";
-    background-color:black;
-    height: 2px;
-    width: 15px;
-    margin: 0 10px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
 #icons{
     display: inline-flex;
     margin: auto;
