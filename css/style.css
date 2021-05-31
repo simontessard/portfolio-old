@@ -12,8 +12,8 @@ body {
     
 }
 
-#test:hover{
-    box-shadow: 0 0 25px rgba(33,33,33,.2);
+#test{
+    box-shadow: 0 0 12px rgba(0,0,0, 0.7);
 }
 
 #test2 {
@@ -49,5 +49,3 @@ body {
     color: white;
     text-shadow: 0 0 30px white;
 }
-
-
