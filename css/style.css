@@ -12,7 +12,7 @@ body {
     
 }
 
-#test:hover {
+#test:hover{
     box-shadow: 0 0 25px rgba(33,33,33,.2);
 }
 
@@ -42,3 +42,20 @@ body {
     vertical-align: middle;
 }
 
+#icons{
+    display: inline-flex;
+    margin: auto;
+    color: white;
+}
+
+#a{
+    transition: all 0.2s ease-in-out;
+    padding: 0.2rem;
+    color: #ccc !important;
+    text-decoration: none;
+}
+
+#a:hover{
+    color: white;
+    text-shadow: 0 0 30px white;
+}
