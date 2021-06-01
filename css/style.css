@@ -12,9 +12,11 @@ body {
     
 }
 
-#test{
+#test, #carouselExampleCaptions{
     box-shadow: 0 0 8px rgba(0,0,0, 0.7);
 }
+
+
 
 #test2 {
     background-color: white;
@@ -48,4 +50,11 @@ body {
 #a:hover{
     color: white;
     text-shadow: 0 0 30px white;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-indicators {
+    filter: invert(100%);
+    margin: auto;
 }
