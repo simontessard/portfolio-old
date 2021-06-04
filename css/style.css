@@ -12,7 +12,7 @@ body {
     
 }
 
-#test {
+#test, #carouselExampleCaptions {
     box-shadow: 0 0 8px rgba(0,0,0, 0.7);
 }
 
@@ -58,7 +58,8 @@ body {
 .carousel-control-prev-icon,
 .carousel-control-next-icon,
 .carousel-indicators {
-    filter: invert(100%);
+    /* filter: invert(100%); */
+    padding: auto;
     margin: auto;
 }
 
