@@ -418,7 +418,7 @@
 
         <!-- FIRST PROJECT -->
 
-        <div class="col-lg-4 m-4 p-5 bg-white rounded" id="test">
+        <div class="col-lg-4 m-4 p-5 bg-white rounded" id="firstProject" onmouseover="chbg('firstProject')" onmouseout="chbgdefault('firstProject')">
 
           <div class="container">
 
@@ -459,7 +459,7 @@
 
         <!-- SECOND PROJECT -->
 
-        <div class="col-lg-4 m-4 p-5 bg-white rounded" id="test">
+        <div class="col-lg-4 m-4 p-5 bg-white rounded" onmouseover="chbg('secondProject')" onmouseout="chbgdefault('secondProject')" id="secondProject">
 
           <div class="container">
 
@@ -550,6 +550,27 @@
     </div>
   </footer>
 
+  <script>
+    function chbg(element) 
+    {
+      if (element == 'firstProject')
+      { document.getElementById('secondProject').style.filter = "blur(3px)"
+    }
+      
+      if (element == 'secondProject')
+      { document.getElementById('firstProject').style.filter = "blur(3px)"}
+    }
+
+    function chbgdefault(element) 
+    {
+      if (element == 'firstProject')
+      { document.getElementById('secondProject').style.filter = "grayscale(0)" }
+
+      if (element == 'secondProject')
+      { document.getElementById('firstProject').style.filter = "grayscale(0)" }
+    }
+
+  </script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/script.js"></script>
 </body>
