@@ -159,3 +159,11 @@ body {
   .effect1:hover .bg:after{
     top: 6px;
   }
+
+  @font-face {
+    font-family: "My Custom Font";
+    src: url(/webfonts/FjallaOne-Regular.ttf) format("truetype");
+}
+.customfont { 
+    font-family: "My Custom Font", Verdana, Tahoma;
+}
