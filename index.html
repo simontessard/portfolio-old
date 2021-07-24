@@ -17,11 +17,11 @@
 
     <!-- NAVBAR -->
 
-    <nav class="navbar navbar-expand-xl bg-dark shadow-sm">
+    <nav class="navbar navbar-expand-xl shadow-sm" style="background-color: black;">
 
       <div class="container-fluid mx-5">
 
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-dark">
           <div class="container-fluid m-auto">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
               aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,336 +82,355 @@
 
     <!-- PRESENTATION -->
 
-    <div class="row justify-content-center pt-5" style="background-image: url('img/backgroundimage_flou.jpg');"
-      id="presentation">
+    <section class="section-one">
 
-      <div class="col-auto">
-        <div class="px-3 py-1 section-title bg-primary text-center rounded" id="grandTitre">
-          <h1 id="titre" class="display-6 p-1 text-white fw-bold"> Présentation <i
-              class="px-2 fas fa-user-circle fs-2"></i> </h1>
+      <div class="row justify-content-center pt-5" id="presentation">
+
+        <div class="col-auto">
+          <div class="px-3 py-1 section-title bg-primary text-center rounded" id="grandTitre">
+            <h1 id="titre" class="display-6 p-1 text-white fw-bold"> Présentation <i
+                class="px-2 fas fa-user-circle fs-2"></i> </h1>
+          </div>
         </div>
-      </div>
 
-      <div class="row m-4 justify-content-center">
+        <div class="row m-4 justify-content-center">
 
-        <div class="col-lg-4 m-4 p-4 bg-white rounded" id="test">
+          <div class="col-lg-4 m-4 p-4 bg-white rounded" id="test">
 
-          <div class="row mb-4">
-            <div class="col-sm-8">
-              <h2 class="fs-3"> Développeur Web et Mobile </h2>
-              <span class="badge bg-secondary fst-italic fs-6" id="junior">Junior</span>
+            <div class="row mb-4">
+              <div class="col-sm-8">
+                <h2 class="fs-3"> Développeur Web et Mobile </h2>
+                <span class="badge bg-secondary fst-italic fs-6" id="junior">Junior</span>
+              </div>
+
+              <div class="col-md-4">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <img src="img/avatar.png" class="img-thumbnail rounded-circle m-2"
+                    style="max-width: 120px; max-height: 120px;">
+                </div>
+
+              </div>
+
             </div>
 
-            <div class="col-md-4">
+            <div class="row me-5">
+
+              <p> Je suis un développeur junior web et mobile
+                ayant obtenu un BTS Services Informatiques aux Organisations (SIO)
+                option Solutions Logicielles et Applications Métiers (SLAM). <br>
+                <br> Je vais poursuivre mon apprentissage avec la formation Concepteur Développeur d’Applications
+                (Bac+4)
+                proposée par l'ENI à la rentrée prochaine, je cherche une entreprise pour m'accueillir. <br>
+                <br> Etant en quête de défis et d'expérience ce sera pour moi l'opportunité de participer à des projets
+                professionnels et gagner en compétences. <br>
+                <br> Je recherche activement une alternance pour la <b> rentrée 2021 </b> ou pour <b>janvier 2022</b>.
+                </b> <br>
+                <br> Simon
+              </p>
+
               <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <img src="img/avatar.png" class="img-thumbnail rounded-circle m-2"
-                  style="max-width: 120px; max-height: 120px;">
+                <button class="btn btn-primary" type="button"> Télécharger mon CV <i class="fas fa-download fs-6"></i>
+                </button>
               </div>
 
             </div>
 
           </div>
 
-          <div class="row me-5">
+          <!-- FORMATION -->
 
-            <p> Je suis un développeur junior web et mobile
-              ayant obtenu un BTS Services Informatiques aux Organisations (SIO)
-              option Solutions Logicielles et Applications Métiers (SLAM). <br>
-              <br> Je vais poursuivre mon apprentissage avec la formation Concepteur Développeur d’Applications (Bac+4)
-              proposée par l'ENI à la rentrée prochaine, je cherche une entreprise pour m'accueillir. <br>
-              <br> Etant en quête de défis et d'expérience ce sera pour moi l'opportunité de participer à des projets
-              professionnels et gagner en compétences. <br>
-              <br> Je recherche activement une alternance pour la <b> rentrée 2021 </b> ou pour <b>janvier 2022</b>.
-              </b> <br>
-              <br> Simon
-            </p>
 
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-              <button class="btn btn-primary" type="button"> Télécharger mon CV <i class="fas fa-download fs-6"></i>
-              </button>
+
+          <div class="col-lg-4 m-4 p-4 bg-white rounded" id="test">
+
+            <div class="card text-white bg-dark" id="formation">
+              <div class="card-header"><span class="fs-4">Formation future (2021-2023)</span> </div>
             </div>
 
-          </div>
+            <div class="card mb-3 border-primary border-top-0">
 
-        </div>
+              <div class="row g-0">
 
-        <!-- FORMATION -->
+                <div class="col-md-4 py-3 px-3" style="max-width: 150px; max-height: 150px;">
+                  <a
+                    href="https://www.eni-ecole.fr/formations/developpement/niveau-6-bac4-concepteur-developpeur-dapplications/">
+                    <img class="card-img-top img-thumbnail" src="img/eni-logo.png" alt="eni-logo"
+                      title="Accéder au site de la formation" id="eni-logo"> </a>
+                </div>
 
-        <div class="col-lg-4 m-4 p-4 bg-white rounded" id="test">
-
-          <div class="card text-white bg-dark" id="formation">
-            <div class="card-header"><span class="fs-4">Formation future (2021-2023)</span> </div>
-          </div>
-
-          <div class="card mb-3 border-primary border-top-0">
-
-            <div class="row g-0">
-
-              <div class="col-md-4 py-3 px-3" style="max-width: 150px; max-height: 150px;">
-                <a
-                  href="https://www.eni-ecole.fr/formations/developpement/niveau-6-bac4-concepteur-developpeur-dapplications/">
-                  <img class="card-img-top img-thumbnail" src="img/eni-logo.png" alt="eni-logo"
-                    title="Accéder au site de la formation" id="eni-logo"> </a>
-              </div>
-
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title fs-6 mb-1">Concepteur Développeur d'Applications</h5>
-                  <span class="badge bg-info fst-italic mb-2">Bac+4</span>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button class="btn btn-primary" type="button"> Télécharger le programme <i
-                        class="fas fa-download fs-6"></i> </button>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title fs-6 mb-1">Concepteur Développeur d'Applications</h5>
+                    <span class="badge bg-info fst-italic mb-2">Bac+4</span>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                      <button class="btn btn-primary" type="button"> Télécharger le programme <i
+                          class="fas fa-download fs-6"></i> </button>
+                    </div>
                   </div>
+
                 </div>
 
               </div>
-
             </div>
-          </div>
 
-          <div class="card text-white bg-dark " id="formation">
-            <div class="card-header"><span class="fs-4">Formation passée (2019-2021)</span> </div>
-          </div>
+            <div class="card text-white bg-dark " id="formation">
+              <div class="card-header"><span class="fs-4">Formation passée (2019-2021)</span> </div>
+            </div>
 
-          <div class="card mb-3 border-primary border-top-0">
-            <div class="row g-0">
-              <div class="col-md-4 py-3 px-3" style="max-width: 150px; max-height: 150px;">
-                <a href="https://lycee-basch.fr/le-superieur-2/bts-sio/">
-                  <img class="card-img-top img-thumbnail" src="img/vhb-logo.png" alt="eni-logo"
-                    title="Accéder au site de la formation"></a>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title fs-6 mb-1">BTS SIO - Option SLAM (Solutions Logicielles et Applications Métiers)
-                  </h5>
-                  <span class="badge bg-info fst-italic mb-2">Bac+2</span>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>
-                  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button class="btn btn-primary" type="button"> Télécharger le programme <i
-                        class="fas fa-download fs-6"></i> </button>
+            <div class="card mb-3 border-primary border-top-0">
+              <div class="row g-0">
+                <div class="col-md-4 py-3 px-3" style="max-width: 150px; max-height: 150px;">
+                  <a href="https://lycee-basch.fr/le-superieur-2/bts-sio/">
+                    <img class="card-img-top img-thumbnail" src="img/vhb-logo.png" alt="eni-logo"
+                      title="Accéder au site de la formation"></a>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title fs-6 mb-1">BTS SIO - Option SLAM (Solutions Logicielles et Applications
+                      Métiers)
+                    </h5>
+                    <span class="badge bg-info fst-italic mb-2">Bac+2</span>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                      <button class="btn btn-primary" type="button"> Télécharger le programme <i
+                          class="fas fa-download fs-6"></i> </button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
 
         </div>
 
       </div>
-
-    </div>
+      <svg class="curve" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+        viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+      </svg>
+    </section>
 
     <!-- COMPETENCES -->
 
-    <div class="row justify-content-center py-4" id="competences"
-      style="background-image: url('img/backgroundblack.jpg');">
+    <section>
 
-      <div class="col-auto">
-        <div class="px-3 py-1 section-title text-center bg-primary rounded" id="grandTitre">
-          <h1 id="titre" class="display-6 text-white p-1 fw-bold"> Compétences <i
-              class="px-2 fas fa-user-graduate fs-3"></i></h1>
+      <div class="row justify-content-center py-4" id="competences" style="background-color: black;">
+
+        <div class="col-auto">
+          <div class="px-3 py-1 section-title text-center bg-primary rounded" id="grandTitre">
+            <h1 id="titre" class="display-6 text-white p-1 fw-bold"> Compétences <i
+                class="px-2 fas fa-user-graduate fs-3"></i></h1>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="row justify-content-center" style="background-image: url('img/bullseye-Gradient.svg');">
+      <div class="row justify-content-center" style="background-color: black;">
 
-      <div class="col-xl-6">
+        <div class="col-xl-6">
 
-        <div id="carouselExampleCaptions" class="carousel slide p-5 m-3 bg-white rounded" data-bs-ride="carousel">
-          <div class="carousel-indicators mb-1">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-          </div>
-          <div class="carousel-inner">
+          <div id="carouselExampleCaptions" class="carousel slide p-5 m-3 bg-white rounded" data-bs-ride="carousel">
+            <div class="carousel-indicators mb-1">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
 
-            <!-- FIRST SLIDE -->
+              <!-- FIRST SLIDE -->
 
-            <div class="carousel-item active">
+              <div class="carousel-item active">
 
-              <div class="row">
-                <p class="p-0 display-4 fs-3 p-2 text-white fw-bold text-center bg-dark">PROGRAMMATION</p>
+                <div class="row">
+                  <p class="p-0 display-4 fs-3 p-2 text-white fw-bold text-center bg-dark">PROGRAMMATION</p>
+                </div>
+
+                <hr>
+
+                <div class="row mt-0">
+                  <p class="mb-4 p-2 display-6 fs-3 text-white text-center bg-secondary">Langages</p>
+                </div>
+
+                <div class="row justify-content-center">
+                  <div class="col-md-auto" style="max-width: 175px">
+                    <img src="img/carousel/new-php-logo.svg" id="imgCar" class="d-none d-lg-block d-block w-100"
+                      alt="logoPHP">
+                    <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> PHP 7.4 </h4>
+                  </div>
+                  <div class="col-md-auto" style="max-width: 175px">
+                    <img src="img/carousel/html-logo.svg" id="imgCar" class="d-none d-lg-block d-block w-100"
+                      alt="logoHTML">
+                    <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> HTML 5 </h4>
+                  </div>
+                  <div class="col-md-auto" style="max-width: 175px">
+                    <img src="img/carousel/css-logo.svg" id="imgCar" class="d-none d-lg-block d-block w-100"
+                      alt="logoCSS">
+                    <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> CSS </h4>
+                  </div>
+                  <div class="col-md-auto" style="max-width: 175px">
+                    <img src="img/carousel/java-logo.svg" id="imgCar" class="d-none d-lg-block d-block w-100"
+                      alt="logoJava">
+                    <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> Java </h4>
+                  </div>
+                  <div class="col-md-auto" style="max-width: 175px">
+                    <img src="img/carousel/c-sharp-logo.svg" id="imgCar" class="d-none d-lg-block d-block w-100"
+                      alt="logoCSHARP">
+                    <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> C# </h4>
+                  </div>
+                </div>
+
+                <div class="row my-2">
+                  <p class="my-2 p-2 display-6 fs-3 text-white text-center bg-secondary">Frameworks</p>
+                </div>
+
+                <div class="row justify-content-center">
+                  <div class="col-md-auto" style="max-width: 175px">
+                    <img src="img/carousel/bootstrap-logo.svg" id="imgCar" class="d-none d-lg-block d-block w-100"
+                      alt="logoBootstrap">
+                    <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> Bootstrap 5 </h4>
+                  </div>
+
+                  <div class="col-md-auto" style="max-width: 175px; text-align: center;">
+                    <img src="img/carousel/codeigniter-logo.svg" id="imgCar" class="d-none d-lg-inline d-inline"
+                      alt="logoCodeIgniter">
+                    <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> CodeIgniter 4 </h4>
+                  </div>
+
+                </div>
+
+                <div class="row my-2">
+                  <p class="my-2 display-6 fs-3 text-white text-center bg-secondary p-2">Outils</p>
+                </div>
+
+                <div class="row justify-content-center">
+                  <div class="col-md-auto" style="max-width: 175px">
+                    <img src="img/carousel/visual-studio-code-logo.svg" class="d-none d-lg-block d-block w-100"
+                      id="imgCar" alt="logoBootstrap">
+                    <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> Visual Studio Code </h4>
+                  </div>
+
+                  <div class="col-md-auto" style="max-width: 175px">
+                    <img src="img/carousel/visual-studio-2013-logo.svg" class="d-none d-lg-block d-block w-100"
+                      id="imgCar" alt="logoCodeIgniter">
+                    <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> Visual Studio 2019 </h4>
+                  </div>
+
+                  <div class="col-md-auto" style="max-width: 175px">
+                    <img src="img/carousel/android-logomark.svg" class="d-none d-lg-block d-block w-100" id="imgCar"
+                      alt="logoCodeIgniter">
+                    <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> Android Studio </h4>
+                  </div>
+
+                </div>
+
               </div>
 
-              <hr>
+              <!-- SECOND SLIDE -->
 
-              <div class="row mt-0">
-                <p class="mb-4 p-2 display-6 fs-3 text-white text-center bg-secondary">Langages</p>
-              </div>
+              <div class="carousel-item">
 
-              <div class="row justify-content-center">
-                <div class="col-md-auto" style="max-width: 175px">
-                  <img src="img/carousel/new-php-logo.svg" id="imgCar" class="d-none d-lg-block d-block w-100"
-                    alt="logoPHP">
-                  <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> PHP 7.4 </h4>
-                </div>
-                <div class="col-md-auto" style="max-width: 175px">
-                  <img src="img/carousel/html-logo.svg" id="imgCar" class="d-none d-lg-block d-block w-100"
-                    alt="logoHTML">
-                  <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> HTML 5 </h4>
-                </div>
-                <div class="col-md-auto" style="max-width: 175px">
-                  <img src="img/carousel/css-logo.svg" id="imgCar" class="d-none d-lg-block d-block w-100"
-                    alt="logoCSS">
-                  <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> CSS </h4>
-                </div>
-                <div class="col-md-auto" style="max-width: 175px">
-                  <img src="img/carousel/java-logo.svg" id="imgCar" class="d-none d-lg-block d-block w-100"
-                    alt="logoJava">
-                  <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> Java </h4>
-                </div>
-                <div class="col-md-auto" style="max-width: 175px">
-                  <img src="img/carousel/c-sharp-logo.svg" id="imgCar" class="d-none d-lg-block d-block w-100"
-                    alt="logoCSHARP">
-                  <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> C# </h4>
-                </div>
-              </div>
-
-              <div class="row my-2">
-                <p class="my-2 p-2 display-6 fs-3 text-white text-center bg-secondary">Frameworks</p>
-              </div>
-
-              <div class="row justify-content-center">
-                <div class="col-md-auto" style="max-width: 175px">
-                  <img src="img/carousel/bootstrap-logo.svg" id="imgCar" class="d-none d-lg-block d-block w-100"
-                    alt="logoBootstrap">
-                  <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> Bootstrap 5 </h4>
+                <div class="row">
+                  <p class="p-0 display-4 fs-3 p-2 bg-dark text-white fw-bold text-center">BASE DE DONNÉES</p>
                 </div>
 
-                <div class="col-md-auto" style="max-width: 175px">
-                  <img src="img/carousel/codeigniter-logo.svg" id="imgCar" class="d-none d-lg-block d-block w-100"
-                    alt="logoCodeIgniter">
-                  <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> CodeIgniter 4 </h4>
+                <hr>
+
+                <div class="row mt-0">
+                  <p class="mb-4 p-2 display-6 fs-3 text-white text-center bg-secondary">Langage</p>
                 </div>
 
-              </div>
-
-              <div class="row my-2">
-                <p class="my-2 display-6 fs-3 text-white text-center bg-secondary p-2">Outils</p>
-              </div>
-
-              <div class="row justify-content-center">
-                <div class="col-md-auto" style="max-width: 175px">
-                  <img src="img/carousel/visual-studio-code-logo.svg" class="d-none d-lg-block d-block w-100"
-                    id="imgCar" alt="logoBootstrap">
-                  <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> Visual Studio Code </h4>
+                <div class="row justify-content-center">
+                  <div class="col-md-auto" style="max-width: 175px">
+                    <img src="img/carousel/sql-file-format-symbol.svg" class="d-none d-lg-block d-block w-100"
+                      id="imgCar" alt="logoSQL">
+                    <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> SQL </h4>
+                  </div>
                 </div>
 
-                <div class="col-md-auto" style="max-width: 175px">
-                  <img src="img/carousel/visual-studio-2013-logo.svg" class="d-none d-lg-block d-block w-100"
-                    id="imgCar" alt="logoCodeIgniter">
-                  <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> Visual Studio 2019 </h4>
+                <div class="row my-2">
+                  <p class="my-2 p-2 display-6 fs-3 text-white text-center bg-secondary">Modélisation de base de données
+                  </p>
                 </div>
 
-                <div class="col-md-auto" style="max-width: 175px">
-                  <img src="img/carousel/android-logomark.svg" class="d-none d-lg-block d-block w-100" id="imgCar"
-                    alt="logoCodeIgniter">
-                  <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> Android Studio </h4>
+                <div class="row justify-content-center">
+                  <div class="col-md-auto" style="max-width: 175px">
+                    <img src="img/carousel/logo-icon-windesign.png" class="d-none d-lg-block d-block w-100" id="imgCar"
+                      alt="logoWinDesign">
+                    <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> Win Design </h4>
+                  </div>
+
+                  <div class="col-md-auto" style="max-width: 175px">
+                    <img src="img/carousel/mysql-6.svg" class="d-none d-lg-block d-block w-100" id="imgCar"
+                      alt="logoMySQLWorkbench">
+                    <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> MySQL Workbench </h4>
+                  </div>
+
+                </div>
+
+                <div class="row my-2">
+                  <p class="my-2 display-6 fs-3 text-white text-center bg-secondary p-2">Gestion de base de données</p>
+                </div>
+
+                <div class="row justify-content-center">
+                  <div class="col-md-auto" style="max-width: 175px">
+                    <img src="img/carousel/phpmyadmin-logo.svg" class="d-none d-lg-block d-block w-100" id="imgCar"
+                      alt="logoPHPMyAdmin">
+                    <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> PHPMyAdmin </h4>
+                  </div>
+
+                  <div class="col-md-auto" style="max-width: 175px">
+                    <img src="img/carousel/mysql-6.svg" class="d-none d-lg-block d-block w-100" id="imgCar"
+                      alt="logoMySQLWorkbench">
+                    <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> MySQL Workbench </h4>
+                  </div>
+
+                  <div class="col-md-auto" style="max-width: 175px">
+                    <img src="img/carousel/mariadb-logo.svg" class="d-none d-lg-block d-block w-100" id="imgCar"
+                      alt="logoMariaDB">
+                    <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> MariaDB </h4>
+                  </div>
                 </div>
 
               </div>
+
+              <!-- THIRD SLIDE -->
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-primary border border-2 border-dark rounded p-4"
+                  aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-primary border border-2 border-dark rounded p-4"
+                  aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
 
             </div>
 
-            <!-- SECOND SLIDE -->
-
-            <div class="carousel-item">
-
-              <div class="row">
-                <p class="p-0 display-4 fs-3 p-2 bg-dark text-white fw-bold text-center">BASE DE DONNÉES</p>
-              </div>
-
-              <hr>
-
-              <div class="row mt-0">
-                <p class="mb-4 p-2 display-6 fs-3 text-white text-center bg-secondary">Langage</p>
-              </div>
-
-              <div class="row justify-content-center">
-                <div class="col-md-auto" style="max-width: 175px">
-                  <img src="img/carousel/sql-file-format-symbol.svg" class="d-none d-lg-block d-block w-100" id="imgCar"
-                    alt="logoSQL">
-                  <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> SQL </h4>
-                </div>
-              </div>
-
-              <div class="row my-2">
-                <p class="my-2 p-2 display-6 fs-3 text-white text-center bg-secondary">Modélisation de base de données
-                </p>
-              </div>
-
-              <div class="row justify-content-center">
-                <div class="col-md-auto" style="max-width: 175px">
-                  <img src="img/carousel/logo-icon-windesign.png" class="d-none d-lg-block d-block w-100" id="imgCar"
-                    alt="logoWinDesign">
-                  <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> Win Design </h4>
-                </div>
-
-                <div class="col-md-auto" style="max-width: 175px">
-                  <img src="img/carousel/mysql-6.svg" class="d-none d-lg-block d-block w-100" id="imgCar"
-                    alt="logoMySQLWorkbench">
-                  <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> MySQL Workbench </h4>
-                </div>
-
-              </div>
-
-              <div class="row my-2">
-                <p class="my-2 display-6 fs-3 text-white text-center bg-secondary p-2">Gestion de base de données</p>
-              </div>
-
-              <div class="row justify-content-center">
-                <div class="col-md-auto" style="max-width: 175px">
-                  <img src="img/carousel/phpmyadmin-logo.svg" class="d-none d-lg-block d-block w-100" id="imgCar"
-                    alt="logoPHPMyAdmin">
-                  <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> PHPMyAdmin </h4>
-                </div>
-
-                <div class="col-md-auto" style="max-width: 175px">
-                  <img src="img/carousel/mysql-6.svg" class="d-none d-lg-block d-block w-100" id="imgCar"
-                    alt="logoMySQLWorkbench">
-                  <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> MySQL Workbench </h4>
-                </div>
-
-                <div class="col-md-auto" style="max-width: 175px">
-                  <img src="img/carousel/mariadb-logo.svg" class="d-none d-lg-block d-block w-100" id="imgCar"
-                    alt="logoMariaDB">
-                  <h4 class="mt-2 p-2 text-center fs-5 border border-dark rounded"> MariaDB </h4>
-                </div>
-              </div>
-
-            </div>
-
-            <!-- THIRD SLIDE -->
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon bg-primary border border-2 border-dark rounded p-4"
-                aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon bg-primary border border-2 border-dark rounded p-4"
-                aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-
           </div>
-
         </div>
       </div>
-    </div>
+
+    </section>
+
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M0,0V6c0,21.6,291,111.46,741,110.26,445.39,3.6,459-88.3,459-110.26V0Z" class="shape-fill" fill="#000000"
+        fill-opacity="1"> </path>
+    </svg>
 
     <!-- PORTFOLIO  -->
 
     <section class="portfolio" id="realisations">
 
-      <div class="row justify-content-center py-4" style="background-image: url('img/backgroundblack.jpg');">
+
+      <div class="row justify-content-center m-2 py-4">
         <div class="col-auto">
           <div class="px-3 py-1 section-title text-center bg-primary rounded" id="grandTitre">
             <h1 id="titre" class="display-6 text-white p-1 fw-bold"> Réalisations <i class="px-2 fas fa-tasks fs-3"></i>
@@ -420,7 +439,7 @@
         </div>
       </div>
 
-      <div class="row justify-content-center" style="background-image: url('img/backgroundblack.jpg');">
+      <div class="row justify-content-center">
 
         <!-- FIRST PROJECT -->
 
@@ -512,35 +531,51 @@
       </div>
   </div>
   </div>
+
+  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+    <path
+      d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+      opacity=".25" class="shape-fill" fill="#F8F9FA" fill-opacity="1"></path>
+    <path
+      d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+      opacity=".5" class="shape-fill" fill="#F8F9FA" fill-opacity="1"></path>
+    <path
+      d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+      class="shape-fill" fill="#F8F9FA" fill-opacity="1"></path>
+  </svg>
   </section>
 
   <!-- CONTACT  -->
 
-  <div class="row justify-content-center py-4 bg-light" id="contact"
-    style="background-image: url('img/backgroundblack.jpg');">
+  <section class="section-contact" style="background-color: white;">
 
-    <div class="col-auto">
-      <div class="px-3 py-1 section-title text-center bg-primary rounded" id="grandTitre">
-        <h1 id="titre" class="display-6 text-white p-1 fw-bold"> Contactez moi <i class="px-2 fas fa-envelope fs-3"></i>
-        </h1>
-      </div>
-    </div>
-  </div>
+    <div class="row justify-content-center py-4" id="contact">
 
-  <div class="row justify-content-center bg-light" style="background-image: url('img/backgroundblack.jpg');">
-
-    <div class="col-lg-4">
-
-      <div class="card m-4 p-3 pb-0">
-        <div class="card-header text-center text-white bg-info fs-5"> Ne pas hésitez à me contacter : </div>
-        <div class="card-body">
-          <h5 class="card-title"> <i class="fas fa-phone-square-alt me-2"></i> 07 83 23 23 23 </h5>
-          <h5 class="card-title"> <i class="fas fa-envelope-square me-2"></i> simon.tessard@gmail.com </h5>
+      <div class="col-auto">
+        <div class="px-3 py-1 section-title text-center bg-primary rounded" id="grandTitre">
+          <h1 id="titre" class="display-6 text-white p-1 fw-bold"> Contactez moi <i
+              class="px-2 fas fa-envelope fs-3"></i>
+          </h1>
         </div>
       </div>
-
     </div>
-  </div>
+
+    <div class="row justify-content-center">
+
+      <div class="col-lg-4">
+
+        <div class="card m-4 p-3 pb-0">
+          <div class="card-header text-center text-white bg-info fs-5"> Ne pas hésitez à me contacter : </div>
+          <div class="card-body">
+            <h5 class="card-title"> <i class="fas fa-phone-square-alt me-2"></i> 07 83 23 23 23 </h5>
+            <h5 class="card-title"> <i class="fas fa-envelope-square me-2"></i> simon.tessard@gmail.com </h5>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
 
   <!-- FOOTER -->
 
