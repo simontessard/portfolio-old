@@ -32,27 +32,27 @@
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-          <ul class="navbar-nav m-auto text-center">
+          <ul class="navbar-nav m-auto text-center customfont">
 
             <li class="rounded nav-item m-2">
               <a class="nav-link rounded px-3">
-                <h2 class="customfont me-3" id="titrePortfolio">PORTFOLIO - Simon </h2>
+                <h2 class="me-3" id="titrePortfolio">PORTFOLIO - Simon </h2>
               </a>
             </li>
 
             <li class="rounded nav-item m-2">
               <a class="nav-link rounded px-3" href="#presentation" id="test2"><span
-                  class="customfont fs-5 text-dark">Présentation</span></a>
+                  class="fs-5 text-dark">Présentation</span></a>
             </li>
 
             <li class="rounded nav-item m-2">
               <a class="nav-link rounded px-3" href="#formation" id="test2"><span
-                  class="customfont fs-5 text-dark">Formation</span></a>
+                  class="fs-5 text-dark">Formation</span></a>
             </li>
 
             <li class="rounded nav-item m-2">
               <a class="nav-link rounded px-3" href="#competences" id="test2"><span
-                  class="customfont fs-5 text-dark">Compétences</span></a>
+                  class="fs-5 text-dark">Compétences</span></a>
             </li>
 
             <li class="rounded nav-item m-2">
@@ -61,7 +61,7 @@
 
                 <a class="d-block btn btn-light btn-lg dropdown-toggle" type="button" id="test2"
                   data-bs-toggle="dropdown" aria-expanded="false"><span
-                    class="customfont fs-5 text-dark">Réalisations</span> </a>
+                    class="fs-5 text-dark">Réalisations</span> </a>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                   <li><a class="dropdown-item" href="#apirest">API-REST</a></li>
@@ -73,7 +73,14 @@
 
             <li class="rounded nav-item m-2">
               <a class="nav-link rounded px-3" href="#contact" id="test2"><span
-                  class="customfont fs-5 text-dark">Contact</span></a>
+                  class="fs-5 text-dark">Contact</span></a>
+            </li>
+
+            <li class="m-2 ms-5">
+              <a class="nav-link rounded px-3" >
+              <img height="25" width="40" src="img/frenchflag.svg" alt="logoFlag">
+
+              </a>
             </li>
 
           </ul>
@@ -106,7 +113,7 @@
 
             <div class="row mb-4">
               <div class="col-sm-8">
-                <h2 class="fs-3"> Développeur Web et Mobile </h2>
+                <h2 class="fs-3 customfont "> Développeur Web et Mobile </h2>
                 <span class="badge bg-secondary fst-italic fs-6" id="junior">Junior</span>
               </div>
 
@@ -134,19 +141,18 @@
                 </b> <br>
                 <br> Simon
               </p>
-
+              
+              <!--
               <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button class="btn btn-primary" type="button"> Télécharger mon CV <i class="fas fa-download fs-6"></i>
-                </button>
-              </div>
+                <button class="btn btn-primary" type="button"> Télécharger mon CV <i class="fas fa-download fs-6 ms-2"></i>
+                </button> 
+              </div>-->
 
             </div>
 
           </div>
 
           <!-- FORMATION -->
-
-
 
           <div class="col-lg-4 m-4 p-4 bg-white rounded" id="test">
 
@@ -158,22 +164,23 @@
 
               <div class="row g-0">
 
-                <div class="col-md-4 py-3 px-3" style="max-width: 150px; max-height: 150px;">
-                  <a
-                    href="https://www.eni-ecole.fr/formations/developpement/niveau-6-bac4-concepteur-developpeur-dapplications/">
+                <div class="col-md-4 py-3 px-3" style="max-width: 175px; max-height: 175px;">
                     <img class="card-img-top img-thumbnail" src="img/formation/eni-logo.png" alt="eni-logo"
-                      title="Accéder au site de la formation" id="eni-logo"> </a>
+                      title="Accéder au site de la formation" id="eni-logo">
                 </div>
 
                 <div class="col-md-8">
                   <div class="card-body">
                     <h5 class="card-title fs-6 mb-1">Concepteur Développeur d'Applications</h5>
                     <span class="badge bg-info fst-italic mb-2">Bac+4</span>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                      additional content. This content is a little bit longer.</p>
+                    <p class="card-text"> Cette formation a une durée de 2 années en alternance, le rythme d'apprentissage 
+                      alterne 3 semaines en entreprise et 1 semaine en école.
+                      
+                    </p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                      <button class="btn btn-primary" type="button"> Télécharger le programme <i
-                          class="fas fa-download fs-6"></i> </button>
+                      <a href="https://www.eni-ecole.fr/formations/developpement/niveau-6-bac4-concepteur-developpeur-dapplications/" target="_blank">
+                      <button class="btn btn-primary" type="button"> Accéder au site de la formation <i
+                          class="fas fa-external-link-alt fs-6 ms-2"></i> </button></a>
                     </div>
                   </div>
 
@@ -188,10 +195,9 @@
 
             <div class="card mb-3 border-primary border-top-0">
               <div class="row g-0">
-                <div class="col-md-4 py-3 px-3" style="max-width: 150px; max-height: 150px;">
-                  <a href="https://lycee-basch.fr/le-superieur-2/bts-sio/">
+                <div class="col-md-4 py-3 px-3" style="max-width: 175px; max-height: 175px;">
                     <img class="card-img-top img-thumbnail" src="img/formation/vhb-logo.png" alt="eni-logo"
-                      title="Accéder au site de la formation"></a>
+                      title="Accéder au site de la formation">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -199,11 +205,13 @@
                       Métiers)
                     </h5>
                     <span class="badge bg-info fst-italic mb-2">Bac+2</span>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                      additional content. This content is a little bit longer.</p>
+                    <p class="card-text"> Après 2 années de formation, j'ai obtenu ce diplôme après l'avoir suivi 
+                        au Lycée Victor et Hélène Basch à Rennes.
+                    </p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                      <button class="btn btn-primary" type="button"> Télécharger le programme <i
-                          class="fas fa-download fs-6"></i> </button>
+                      <a href="https://lycee-basch.fr/le-superieur-2/bts-sio/" target="_blank">
+                      <button class="btn btn-primary" type="button"> Accéder au site de la formation <i
+                          class="fas fa-external-link-alt fs-6 ms-2"></i> </button></a>
                     </div>
                   </div>
                 </div>
@@ -228,7 +236,7 @@
       <div class="row justify-content-center py-4" id="competences" style="background-color: black;">
 
         <div class="col-auto">
-          <div class="px-3 py-1 section-title text-center bg-primary rounded" id="grandTitre">
+          <div class="px-3 py-1 section-title text-center bg-primary rounded border border-3 border-white" id="grandTitre">
             <h1 id="titre" class="display-6 text-white p-1 fw-bold"> Compétences <i
                 class="px-2 fas fa-user-graduate fs-3"></i></h1>
           </div>
@@ -461,7 +469,7 @@
 
         <!-- FIRST PROJECT -->
 
-        <div class="col-lg-4 m-4 pt-5 bg-white rounded" id="firstProject" onmouseover="chbg('firstProject')"
+        <div class="col-lg-4 m-4 pt-5 bg-white border border-4 border-dark rounded" id="firstProject" onmouseover="chbg('firstProject')"
           onmouseout="chbgdefault('firstProject')">
 
           <div class="container">
@@ -505,7 +513,7 @@
 
         <!-- SECOND PROJECT -->
 
-        <div class="col-lg-4 m-4 pt-5 bg-white rounded" onmouseover="chbg('secondProject')"
+        <div class="col-lg-4 m-4 pt-5 bg-white border border-4 border-dark rounded" onmouseover="chbg('secondProject')"
           onmouseout="chbgdefault('secondProject')" id="secondProject">
 
           <div class="container">
