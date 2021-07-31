@@ -1,61 +1,45 @@
 body { 
     overflow-x: hidden;
 }
-
 .header {
     height: 100vh;
     width: 100%;
 }
-
-#titrePortfolio {
-    color: white;
-    
-}
-
 #test, #carouselExampleCaptions, #firstProject, #secondProject {
     box-shadow: 0 0 8px rgba(0,0,0, 0.7);
-    
 }
-
 #grandTitre {
     box-shadow: 0 0 10px rgba(0,0,0, 0.7);
 }
-
-
-#test2 {
+#transitionWhiteBlue {
     background-color: white;
     border: 2px solid white;
     background-image: -webkit-linear-gradient(left, #ffffff 50%, rgb(13,110,253) 20%);
     background-image: linear-gradient(to right, #ffffff 50%, rgb(13,110,253) 20%);
     background-position: 0;
-    background-size: 200%;
+    background-size: 201%;
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
   }
-
-#test2:hover {
+#transitionWhiteBlue:hover {
     -webkit-text-fill-color: white;
     background-position: -100%;
 }
-
 #icons{
     display: inline-flex;
     margin: auto;
     color: white;
 }
-
 #a{
     transition: all 0.2s ease-in-out;
     padding: 0.2rem;
     color: white !important;
     text-decoration: none;
 }
-
 #a:hover{
     color: white;
     text-shadow: 0 0 30px white;
 }
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon,
 .carousel-indicators {
@@ -63,14 +47,11 @@ body {
     padding: auto;
     margin: auto;
 }
-
 #imgCar {
     width: auto;
     height: 100px;
 }
-
 /* Bouton Github */
-
 .effect1 {
     color: #222;
     
@@ -161,10 +142,13 @@ body {
     top: 6px;
   }
 
-  @font-face {
-    font-family: "My Custom Font";
-    src: url(/webfonts/FjallaOne-Regular.ttf) format("truetype");
+@font-face {
+    font-family: Fjalla One;
+    src: url(../webfonts/fjallaone/FjallaOne-Regular.ttf) format("truetype");
 }
 .customfont { 
-    font-family: "My Custom Font", Verdana, Tahoma;
+    font-family: Fjalla One;
+}
+.fa-laptop-code {
+  
 }
