@@ -471,6 +471,7 @@
             </h1>
           </div>
         </div>
+
         <div class="col-auto d-flex align-items-center">
           <h1 data-bs-toggle="modal" data-bs-target="#exampleModal" class="text-white text-center fs-3"> <i
               class="fa fa-info-circle"></i> </h1>
@@ -505,6 +506,7 @@
         <div class="col-lg-4 m-4 pt-5 bg-white border border-4 border-dark rounded" id="firstProject"
           onmouseover="chbg('firstProject')" onmouseout="chbgdefault('firstProject')">
 
+
           <div class="container">
 
             <div class="row text-center">
@@ -526,14 +528,27 @@
             </div>
 
             <div class="row my-4 text-center">
-              <span class="fw-bold"> COMPÉTENCES </span>
-              <ul class="list-group list-group-horizontal-xl m-2 justify-content-center">
-                <li class="list-group-item list-group-item-success">HTML</li>
-                <li class="list-group-item list-group-item-success">CSS</li>
-                <li class="list-group-item list-group-item-success">PHP</li>
-                <li class="list-group-item list-group-item-success">MySQL</li>
-                <li class="list-group-item list-group-item-success">JSON</li>
-              </ul>
+              <div class="col-lg">   
+
+                <span class="fw-bold"> COMPÉTENCES </span>
+                <ul class="list-group list-group-horizontal-xl m-2 justify-content-center">
+                  <li class="list-group-item list-group-item-success">HTML</li>
+                  <li class="list-group-item list-group-item-success">CSS</li>
+                  <li class="list-group-item list-group-item-success">PHP</li>
+                  <li class="list-group-item list-group-item-success">MySQL</li>
+                  <li class="list-group-item list-group-item-success">JSON</li>
+                </ul>
+
+              </div>
+
+              <div class="col-lg">
+                <span class="fw-bold"> FRAMEWORK </span>
+                <ul class="list-group list-group-horizontal-xl m-2 justify-content-center">
+                  <li class="list-group-item list-group-item-warning">CodeIgniter 3</li>
+                  
+                </ul>
+              </div>
+              
             </div>
             
             <!-- 
@@ -589,6 +604,32 @@
         <div class="col-lg-4 m-4 pt-5 bg-white border border-4 border-dark rounded" id="firstProject"
           onmouseover="chbg('firstProject')" onmouseout="chbgdefault('firstProject')">
 
+            <!-- Button trigger modal -->
+
+          <div class="position-relative">
+            <div class="position-absolute bottom-0 start-0">
+              <button data-bs-toggle="modal" data-bs-target="#modalProject1" type="button" class="btn btn-success "><i class="fas fa-images"></i></button>
+            </div>
+          </div>  
+  
+          <!-- Modal -->
+          <div class="modal fade" id="modalProject1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Captures d'écran</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p><b>L'onglet planning :</b></p>
+                  <img src="img/projects/3/onglet-planning.png" style="width: 60%; height: auto;" alt="">
+                  <p class="pt-3"><b>L'onglet formation :</b></p>
+                  <img src="img/projects/3/onglet-formation.png" style="width: 60%; height: auto;" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div class="container">
 
             <div class="row text-center">
@@ -598,25 +639,38 @@
             <div class="row m-2 justify-content-center">
               <div class="col-auto">
                 <p class="p-3 mt-3 fs-3 fw-bold border border-1 bg-dark text-center text-white rounded" id="apirest">
-                  Application de Gestion </p>
+                  Application Web de Gestion </p>
               </div>
             </div>
 
             <div class="row m-3">
-              <p> Dans le contexte de mon stage de 2ème, j'ai eu l'opportunité de réaliser un 
-                stage auprès d'une association "La Maison des Chaudoudoux". J'ai apporté
-                mon aide au développement de leur application interne de gestion.
+              <p> Dans le contexte de mon stage de 2ème année de BTS SIO, j'ai eu l'opportunité de réaliser un 
+                stage auprès de l'association "La Maison des Chaudoudoux" où
+                j'ai apporté mon aide au développement de leur application interne de gestion.
               </p>
             </div>
 
             <div class="row my-4 text-center">
-              <span class="fw-bold"> COMPÉTENCES </span>
-              <ul class="list-group list-group-horizontal-xl m-2 justify-content-center">
-                <li class="list-group-item list-group-item-success">HTML</li>
-                <li class="list-group-item list-group-item-success">CSS</li>
-                <li class="list-group-item list-group-item-success">PHP</li>
-                <li class="list-group-item list-group-item-success">MySQL</li>
-              </ul>
+              <div class="col-lg">   
+
+                <span class="fw-bold"> COMPÉTENCES </span>
+                <ul class="list-group list-group-horizontal-xl m-2 justify-content-center">
+                  <li class="list-group-item list-group-item-success">HTML</li>
+                  <li class="list-group-item list-group-item-success">CSS</li>
+                  <li class="list-group-item list-group-item-success">PHP</li>
+                  <li class="list-group-item list-group-item-success">MySQL</li>
+                </ul>
+
+              </div>
+              
+              <div class="col-lg">
+                <span class="fw-bold"> FRAMEWORK </span>
+                <ul class="list-group list-group-horizontal-xl m-2 justify-content-center">
+                  <li class="list-group-item list-group-item-warning">Bootstrap 3</li>
+                  
+                </ul>
+              </div>
+              
             </div>
 
           </div>
