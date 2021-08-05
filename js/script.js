@@ -15,7 +15,6 @@ function chbg(element) {
     }
 }
     
-    
 function chbgdefault(element) {
     if (element == 'firstProject') { document.getElementById('secondProject').style.filter = "grayscale(0)";
     document.getElementById('thirdProject').style.filter = "grayscale(0)"; }
