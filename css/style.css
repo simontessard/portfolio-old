@@ -8,8 +8,8 @@ body {
 #test, #carouselExampleCaptions, #firstProject, #secondProject, #thirdProject {
     transition: 1s;
 }
-#grandTitre {
-    box-shadow: 0 0 10px rgba(0,0,0, 0.7);
+.shadowBox {
+  box-shadow: 0 0 2px rgba(0,0,0, 0.7);
 }
 #formation {
   background-color: black;
