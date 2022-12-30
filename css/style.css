@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  font-family: Avenir;
 }
 
 .header {
@@ -169,6 +170,11 @@ body {
 @font-face {
   font-family: Fjalla One;
   src: url(../webfonts/fjallaone/FjallaOne-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(../webfonts/avenir/AvenirLTStd-Book.otf) format("truetype");
 }
 
 .customfont,
