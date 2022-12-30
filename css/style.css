@@ -12,6 +12,17 @@ body {
   transition: 1s;
 }
 
+.testContainer {
+  background-color: #007bff;
+  width: 500px;
+  height: 705px;
+}
+
+#img-cover {
+  z-index: 1000000000000000000;
+  background-color: #222;
+}
+
 .shadowBox {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
 }
@@ -160,7 +171,8 @@ body {
   src: url(../webfonts/fjallaone/FjallaOne-Regular.ttf) format("truetype");
 }
 
-.customfont {
+.customfont,
+#titre {
   font-family: Fjalla One;
 }
 
@@ -173,7 +185,8 @@ body {
   color: #007bff;
 }
 
-#boxPresentation, .formation-text-card {
+#boxPresentation,
+.formation-text-card {
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
 }
@@ -181,4 +194,9 @@ body {
 .arrondi-haut {
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
+}
+
+.fa-user-graduate,
+.fa-envelope {
+  vertical-align: middle;
 }
