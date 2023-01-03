@@ -207,11 +207,6 @@ body {
   vertical-align: middle;
 }
 
-.customCard:hover {
-  transform: translate3D(0,-1px,0) scale(1.1);
-  transition: all 1s 0.3s ease-in-out;
-}
-
-.customCard {
-  transition: all 0.7s 0.3s ease-in-out;
+.btn-dark {
+  border-radius: 25px;
 }
